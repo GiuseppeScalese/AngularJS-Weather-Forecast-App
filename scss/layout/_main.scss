@@ -1,0 +1,202 @@
+#main-content{
+	@extend %clearfix;
+	margin-bottom: 30px;
+
+	.results{
+		padding: 20px;
+
+		&.very-hot{
+			background: $bg-color--very-hot;
+		}
+		&.hot{
+			background: $bg-color--hot;
+		}
+		&.mild{
+			background: $bg-color--mild;
+		}
+		&.cold{
+			background: $bg-color--cold;
+		}
+		&.very-cold{
+			background: $bg-color--very-cold;
+		}
+
+		&__condition, &__details{
+			margin: 0 auto;
+			width: 75%;
+
+			@include phone{
+				width: 100%;
+			}
+
+			@include deskop_tablets{
+				width: 85%;
+			}
+		}
+
+		&__condition{		
+			text-align: center;
+			margin-bottom: 50px;
+
+			.sub-heading{
+				@include font-size(73px);
+				text-align: center;
+				padding-top: 15px;
+				margin-bottom: 25px;
+
+				@include phone{
+					@include font-size(62px);
+				}
+
+				@include deskop_tablets{
+					@include font-size(66px);
+				}
+			}
+
+			.wi{
+				@include font-size(200px);
+				display: inline-block;
+				color:$white-colour;
+			}
+
+			.condition-desc{
+				@include font-size($text-size--very-large);
+				padding-top: 35px;
+
+				@include phone{
+				  width: 100%;
+				  @include font-size($text-size--x-large);
+			    }
+			}
+		}
+
+		&__details{
+			@extend %clearfix;
+			border-top: 2px solid $white-colour;
+			
+			.left-box, .right-box{
+				float: left;
+				width: 50%;
+			}
+
+			.left-box{
+
+				@include phone{
+					width: 48%;
+				}
+
+				.top{
+
+					.wi, .temperature{
+						@include font-size(160px);
+
+						@include phone{
+							@include font-size(128px);
+						}
+
+						@include deskop_tablets{
+							@include font-size(140px);
+						}
+					}
+				}
+
+				.bottom{
+					position: relative;
+					top: -20px;
+
+					@include phone{
+						top: -15px;
+					}
+
+					.alignment{
+						padding-left: 15px;
+					}
+
+					.temperature, .wi{
+						@include font-size(28px);
+					}
+				}
+			}
+
+			.right-box{
+				text-align: right;
+				padding-top: 25px;
+
+				@include phone{
+					width: 52%;
+					padding-top: 16px;
+				}
+
+				@include deskop_tablets{
+					padding-top: 18px;
+				}
+
+				.humidity{
+
+					.wi, .symbol{
+						@include font-size(60px);
+
+						@include phone{
+							@include font-size(50px);
+						}
+
+						@include deskop_tablets{			
+							@include font-size(50px);
+						}
+					}
+
+					.symbol{
+						padding-left: 7px;
+					}
+				}
+
+				.wind-speed{
+
+					.wi{
+						@include font-size(50px);
+						position: relative;
+						top: -8px;
+
+						@include phone{
+							@include font-size(40px);
+						}	
+
+						@include deskop_tablets{	
+							top:-6px;		
+							@include font-size(44px);
+						}	
+					}
+
+					.symbol{
+						padding-left: 7px;
+						@include font-size(35px);
+
+						@include phone{
+							padding-left: 5px;
+							@include font-size(38px);
+						}
+					}
+				}
+
+				.value{
+					padding-left: 15px;
+					@include font-size(60px);
+
+					@include phone{
+						padding-left: 7px;
+						@include font-size(50px);
+					}
+
+					@include deskop_tablets{			
+						@include font-size(53px);
+					}
+
+
+					@include deskop_tablets{
+						padding-left: 9px;
+					}
+				}
+			}
+		}
+	}
+}

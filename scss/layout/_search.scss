@@ -1,0 +1,55 @@
+#search{
+	@extend %clearfix;
+	margin-bottom: 15px;
+
+	.refresh{
+		text-align: center;
+
+		.refresh-link{
+			@include font-size($text-size--xx-large);
+			cursor: pointer;
+		}
+	}
+
+	.error{
+		@include font-size(25px);
+		padding: 20px 10px 5px;
+		text-align: center;
+		color: $warning-message-color;
+	}
+ 
+	.search{
+		padding: 25px 20px 20px;
+		border-radius: 15px;
+		padding-left: 55px;
+		text-align: center;
+
+		&__field{
+			border-radius: 15px;
+			-webkit-border-radius: 15px;
+			-moz-border-radius: 15px;
+			width: 250px;
+			@include font-size(17px);
+
+			@include phone{
+				width: 220px;
+			}
+
+			@include deskop_tablets{
+				width: 240px;
+			}
+		}
+
+		&__button{
+			border: none;
+		    background: none;
+		    position: relative;
+		    top: 4px;
+		    left: -42px;
+		    cursor: pointer;
+		}
+	}
+}
+
+
+

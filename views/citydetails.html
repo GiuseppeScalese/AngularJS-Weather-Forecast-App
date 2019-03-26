@@ -1,0 +1,34 @@
+<div class="results__condition">
+  <h2 class="sub-heading">{{cityData.name}}</h2>
+  <i class="wi wi-owm-{{cityData.weather[0].id}}"></i>
+  <p class="condition-desc">{{cityData.weather[0].description}}</p>
+</div>
+
+<div class="results__details">
+  <div class="left-box">
+    <div class="top">
+      <span class="temperature">{{temperature}}</span>
+      <i class="wi wi-degrees"></i>
+    </div>
+    <div class="bottom">
+      <span class="temperature">Min {{temperatureMin}}</span>
+      <i class="wi wi-degrees"></i>
+      <span class="alignment temperature">Max {{temperatureMax}}</span>
+      <i class="wi wi-degrees"></i>
+    </div>
+  </div>
+  <div class="right-box">
+    <div class="humidity">
+      <i class="wi wi-raindrop"></i>
+      <span class="value">{{humidity}}</span>
+      <span class="symbol">%</span>
+    </div>
+    <div class="wind-speed">
+      <i class="wi wi-small-craft-advisory"></i>
+      <span class="value">{{windSpeed}}</span>
+      <span class="symbol">km/h</span>
+    </div>
+  </div>
+</div>
+
+

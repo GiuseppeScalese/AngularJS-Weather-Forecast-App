@@ -1,0 +1,18 @@
+// main.scss
+@import 'utils/_variables.scss';
+
+@import 'base/_mixins.scss';
+@import 'base/_reset.scss'; 
+@import 'base/_base.scss';
+
+@import 'layout/_header.scss';
+@import 'layout/_main.scss';
+@import 'layout/_search.scss';
+
+@import 'module/_buttons.scss';
+@import 'module/_forms.scss';
+@import 'module/_text.scss';
+
+@import 'vendors/_weather-icons.scss';
+
+

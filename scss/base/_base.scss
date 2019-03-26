@@ -1,0 +1,23 @@
+@include font-face($custom-font-one, "../fonts", $custom-font-one);
+@include font-face($custom-font-two, "../fonts", $custom-font-two);
+
+body{
+  color:$base-font-color--white;
+  background: $bg-color--very-light-grey;
+  font-family: LeagueGothic-Regular, $base-font-family;
+} 
+
+#wrapper{
+  max-width: $desktop-screen--large;
+  margin: 0 auto;  
+  width: 600px;
+  background: $bg-color--mild-green;
+
+  @include deskop_tablets{
+	width: 460px;
+  }
+
+  @include phone{
+	width: 90%;
+  }
+}

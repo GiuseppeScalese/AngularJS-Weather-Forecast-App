@@ -1,0 +1,95 @@
+
+//Colours variables
+$primary-color:#707070;
+$secondary-color:#a0a0a0;
+
+$anchor-color--light-green:#72cac8;
+$anchor-color--white:#ffffff;
+$anchor-color--light-blue:#819aaf;
+$anchor-hover-color:#004c00;
+$anchor-footer-hover-color:#ffffff;
+
+$background-nav-color:#3a3a3a;
+$border-nav-color:#d3d3d3;
+$nav-header-separator-color:#6495ED;
+$preview-separator-color:#32313f;
+$main-content-separator-color:#d3d3d3;
+$search-section-border-color:#9a9a9a;
+$warning-message-color:#990000;
+$warning-icon-color:#cc0000;
+$off-wht: rgba(white,.4);
+$black-colour: #000000;
+$white-colour: #ffffff; 
+
+//heading colours
+$primary-heading-colour: #ffffff;
+$secondary-heading-colour: #000000;
+
+//copyright colour
+$copyright-color--very-light-grey:#D3D3D3;
+
+//background colours
+$bg-color--black:#000000;
+$bg-color--white:#ffffff;
+$bg-color--light-green:#72cac8;
+$bg-color--dark-grey:#525252;
+$bg-color--black:#000000;
+$bg-color--light-grey:#d3d3d3;
+$bg-color--very-light-grey:#DBDBDB;
+$bg-color--super-light-grey:#e8eff4;
+$bg-color--white:#ffffff;
+$bg-color-filters:#48182c;
+$bg-color--mild-blue:#1B3F8B; 
+$bg-color--light-blue:#4D6FAC; 
+$bg-color--night-blue: #000034;
+$bg-color--very-dark-blue:#0f0e1e;
+$bg-color--mild-green:#2A8E82;
+
+//weather bg colours
+$bg-color--very-hot:#FFC600;
+$bg-color--hot:#f8a114;
+$bg-color--mild:#4D6FAC;
+$bg-color--cold:#1B3F8B;
+$bg-color--very-cold:#000034;
+
+//base font variables
+$base-font-family: LeagueGothic-Regular, Helvetica, Verdana, sans-serif, Arial;
+$base-font-color--white:#ffffff;
+$base-font-size: 10px;
+$text-size--x-small: 12px;
+$text-size--small: 15px;
+$text-size--medium: 24px;
+$text-size--large: 30px;
+$text-size--very-large: 36px;
+$text-size--x-large: 40px;
+$text-size--xx-large: 55px;
+$text-size--xxx-large: 75px;
+$base_line: 20px;
+$text_line--small: 20px;
+$text_line--medium: 30px;
+$text_line--large: 36px;
+$text_line--very-large: 40px;
+$text-color-base:#000000;
+
+//font type
+$custom-font-one:'LeagueGothic-Regular';
+$custom-font-two:'LeagueGothic-Italic';
+$custom-icons:'weathericons-regular-webfont';
+
+//buttons colours
+$purple: #9A68C7;
+$blue: #3BA9E4;
+$green: #75B343;
+$orange: #FF6A42;
+
+//hover anchor transition speed variable
+$hover-anchor-transition_speed: .4s;
+
+//screen size variables
+$desktop-screen--large: 980px;
+$desktop-screen--x-large: 1280px;
+
+//media queries variables
+$mobile-width-min: 480px;
+$mobile-width-max: 980px;
+
